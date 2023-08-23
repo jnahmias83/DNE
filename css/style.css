@@ -1,0 +1,78 @@
+h2 {
+    font-weight: bold;
+    height: 33px;
+    margin: 0 0 15px 0px;
+    line-height: 40px;
+}
+
+h3 {
+    font-weight: bold;
+    height: 33px;
+    margin: 0 0 15px 0px;
+    line-height: 40px;
+}
+
+.bloc3-new-ss a {
+    font-weight: bold;
+    color: black;
+    line-height: 26px;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: transparent!important;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: Rockwell;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  text-decoration: underline;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+th,td,table {
+  border: 1px solid black!important;
+  border-collapse: collapse;
+}
